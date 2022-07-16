@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(17, 17, 17);
     margin: 0;
     padding: 0;
     display: flex;
@@ -51,7 +51,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: black;
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
@@ -62,7 +62,8 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 6rem;
+    border-radius: 50%;
 }
 
 .profile-photo {
@@ -71,6 +72,7 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    border: 1px white solid;
 }
 
 .profile-photo img {
@@ -117,6 +119,7 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    border-radius: 15%;
 }
 
 .app-download:nth-child(1) {
@@ -136,7 +139,7 @@ body {
 }
 @media (max-width:650px) {
     body {
-        background-color: white;
+        background-color: rgb(0, 0, 0);
     }
 
     .instagram-wrapper {
